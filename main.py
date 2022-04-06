@@ -52,9 +52,9 @@ async def main():
 
         while timer:
             pps, cps = 0, 0
-            await sleep(.9)
+            await sleep(1)
             timer -= 1
-            print(f"PPS: {pps:,} CPS: {cps:,} Time Remaining: {timer:,}s")
+            print(f"PPS: {pps:,} | CPS: {cps:,} | Time Remaining: {timer:,}s")
         event.clear()
     except AssertionError as e:
         print(str(e) or repr(e))
