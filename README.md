@@ -1,2 +1,2 @@
 # AIOHTTPFlood
-HTTP Flood based on AIO
+HTTP Flood based on AsyncIO
